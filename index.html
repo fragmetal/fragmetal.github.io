@@ -2,24 +2,16 @@
 <html>
 <head>
   <title>My Cool Website</title>
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Arial, sans-serif;
-      text-align: center; /* This line centers the text */
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-<h1>Welcome to My Cool Website!</h1>
-<p>This is a paragraph with some text. Feel free to replace it with your own content.</p>
+<h1 id="heading">Welcome to My Cool Website!</h1>
+<p id="paragraph">This is a paragraph with some text. Feel free to replace it with your own content.</p>
+
+<button onclick="changeText()">Click me!</button>
+
+<script src="script.js"></script>
 
 </body>
 </html>
